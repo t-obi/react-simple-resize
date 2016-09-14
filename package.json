@@ -1,6 +1,6 @@
 {
   "name": "react-simple-resize",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A react component rendering a resizable box",
   "homepage": "http://t-obi.github.io/react-simple-resize/",
   "bugs": "https://github.com/t-obi/react-simple-resize/issues",
