@@ -10,7 +10,12 @@ npm install --save react-simple-resize
 ```
 
 ## Basic Usage
-todo
+```js
+<Resize>
+  hello world!
+</Resize>
+```
+Instead of "hello world!" your can use any other children.
 
 ## Development
 To start a webpack-dev-server with the examples:
