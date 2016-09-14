@@ -17,6 +17,42 @@ npm install --save react-simple-resize
 ```
 Instead of "hello world!" your can use any other children.
 
+## Props
+
+###initialHeight
+**type:** Number  
+**default:**  300 
+
+###initialWidth
+**type:** Number  
+**default:**  300 
+
+###minHeight
+**type:** Number  
+**default:**  100 
+
+###minWidth
+**type:** Number  
+**default:**  100 
+
+###children
+**type:** String  
+
+###style
+**type:** Object
+
+###className
+**type:** String  
+
+###handleStyle
+**type:** Object 
+
+###handleClassName
+**type:** String  
+
+###handleColor
+**type:** String  
+
 ## Development
 To start a webpack-dev-server with the examples:
 ```shell
