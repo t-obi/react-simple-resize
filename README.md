@@ -17,7 +17,7 @@ To start a webpack-dev-server with the examples:
 ```shell
 npm start
 ```
-Then open `http://localhost:3000/react-simple-resize`
+Then open `http://localhost:3000`
 
 To build the examples:
 ```shell
