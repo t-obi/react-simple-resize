@@ -1,0 +1,7 @@
+.SVGButton path {
+  fill: #50514F;
+}
+.SVGButton:hover path {
+  fill: #247BA0;
+  transition: all 0.3s;
+}
