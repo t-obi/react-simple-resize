@@ -36,7 +36,7 @@ Instead of "hello world!" your can use any other children.
 **default:**  100 
 
 ###children
-**type:** String  
+**type:** Node  
 
 ###style
 **type:** Object
