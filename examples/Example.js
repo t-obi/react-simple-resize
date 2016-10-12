@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Resize from '../lib/Resize';
+import Resize from '../lib';
 import css from './styles.css';
 
 class Example extends Component {

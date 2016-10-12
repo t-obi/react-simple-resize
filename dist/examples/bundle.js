@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/react-simple-resize";
+/******/ 	__webpack_require__.p = "/react-video-cover";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -15249,7 +15249,8 @@
 	  if (x === y) {
 	    // Steps 1-5, 7-10
 	    // Steps 6.b-6.e: +0 != -0
-	    return x !== 0 || 1 / x === 1 / y;
+	    // Added the nonzero y check to make Flow happy, but it is redundant
+	    return x !== 0 || y !== 0 || 1 / x === 1 / y;
 	  } else {
 	    // Step 6.a: NaN == NaN
 	    return x !== x && y !== y;
@@ -26821,9 +26822,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Resize = __webpack_require__(244);
+	var _lib = __webpack_require__(244);
 
-	var _Resize2 = _interopRequireDefault(_Resize);
+	var _lib2 = _interopRequireDefault(_lib);
 
 	var _styles = __webpack_require__(240);
 
@@ -26851,7 +26852,7 @@
 	    value: function render() {
 
 	      return _react2.default.createElement(
-	        _Resize2.default,
+	        _lib2.default,
 	        { className: _styles2.default.Resize, handleColor: '#247BA0' },
 	        'Resize this box with the handle on the bottom right'
 	      );
