@@ -14,7 +14,7 @@ class NavBar extends Component {
           <NavItem to="/example" label="Example" />
         </ul>
         <div className={css.ExternalNav}>
-          <a href="http://github.com/t-obi/react-simple-resize/">
+          <a href="http://github.com/tkloht/react-simple-resize/">
             <GithubLogo />
           </a>
         </div>

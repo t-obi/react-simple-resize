@@ -2,7 +2,7 @@
 A simple resizable container in React
 
 ## Demo
-[http://t-obi.github.io/react-simple-resize](http://t-obi.github.io/react-simple-resize)
+[http://tkloht.github.io/react-simple-resize](http://tkloht.github.io/react-simple-resize)
 
 ## Installation
 ```shell

@@ -8,9 +8,9 @@
     "resize",
     "resizable"
   ],
-  "homepage": "http://t-obi.github.io/react-simple-resize/",
-  "bugs": "https://github.com/t-obi/react-simple-resize/issues",
-  "repository": "github:t-obi/react-simple-resize",
+  "homepage": "http://tkloht.github.io/react-simple-resize/",
+  "bugs": "https://github.com/tkloht/react-simple-resize/issues",
+  "repository": "github:tkloht/react-simple-resize",
   "scripts": {
     "start": "react-component-scripts start",
     "build": "react-component-scripts build",

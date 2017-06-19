@@ -21,7 +21,7 @@ const App = props => (
         <span> - </span>
         <a href="https://www.twitter.com/tkloht">Twitter</a>
         <span> - </span>
-        <a href="https://t-obi.github.io/imprint">Imprint</a>
+        <a href="https://tkloht.github.io/imprint">Imprint</a>
       </div>
     </footer>
   </div>
