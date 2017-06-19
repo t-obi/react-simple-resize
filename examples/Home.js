@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { IndexLink } from 'react-router';
+import { Link } from 'react-router-dom';
 import css from './styles.css';
 
 class Home extends Component {
@@ -15,7 +15,7 @@ class Home extends Component {
         and the existing React components I found required too much configuration
         or had other problems. So I made a new one.
         <h2>How does it work?</h2>
-        You should have a look at the <a href="https://github.com/t-obi/react-simple-resize/blob/master/README.md">readme</a> and the <IndexLink to="/example">example</IndexLink>.
+        You should have a look at the <a href="https://github.com/t-obi/react-simple-resize/blob/master/README.md">readme</a> and the <Link to="/example">example</Link>.
         I also encourage you to have a look at the code, it should be relatively easy to understand.
         <div>If you have any questions or spot an error I would be glad to help.</div>
       </div>
