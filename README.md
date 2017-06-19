@@ -19,38 +19,38 @@ Instead of "hello world!" your can use any other children.
 
 ## Props
 
-###initialHeight
+### initialHeight
 **type:** Number  
 **default:**  300 
 
-###initialWidth
+### initialWidth
 **type:** Number  
 **default:**  300 
 
-###minHeight
+### minHeight
 **type:** Number  
 **default:**  100 
 
-###minWidth
+### minWidth
 **type:** Number  
 **default:**  100 
 
-###children
+### children
 **type:** Node  
 
-###style
+### style
 **type:** Object
 
-###className
+### className
 **type:** String  
 
-###handleStyle
+### handleStyle
 **type:** Object 
 
-###handleClassName
+### handleClassName
 **type:** String  
 
-###handleColor
+### handleColor
 **type:** String  
 
 ## Development
